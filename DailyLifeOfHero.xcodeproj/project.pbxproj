@@ -9,12 +9,15 @@
 /* Begin PBXBuildFile section */
 		862B0C7C1A81AEA70098FBE8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 862B0C7B1A81AEA70098FBE8 /* main.m */; };
 		862B0C7F1A81AEA70098FBE8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 862B0C7E1A81AEA70098FBE8 /* AppDelegate.m */; };
-		862B0C821A81AEA70098FBE8 /* DailyLifeOfHero.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 862B0C801A81AEA70098FBE8 /* DailyLifeOfHero.xcdatamodeld */; };
 		862B0C851A81AEA70098FBE8 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 862B0C841A81AEA70098FBE8 /* ViewController.m */; };
 		862B0C881A81AEA70098FBE8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 862B0C861A81AEA70098FBE8 /* Main.storyboard */; };
 		862B0C8A1A81AEA70098FBE8 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 862B0C891A81AEA70098FBE8 /* Images.xcassets */; };
 		862B0C8D1A81AEA70098FBE8 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 862B0C8B1A81AEA70098FBE8 /* LaunchScreen.xib */; };
 		862B0C991A81AEA80098FBE8 /* DailyLifeOfHeroTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 862B0C981A81AEA80098FBE8 /* DailyLifeOfHeroTests.m */; };
+		862B0CA41A84B6660098FBE8 /* Task.m in Sources */ = {isa = PBXBuildFile; fileRef = 862B0CA31A84B6660098FBE8 /* Task.m */; };
+		862B0CA81A84BA530098FBE8 /* Role.m in Sources */ = {isa = PBXBuildFile; fileRef = 862B0CA71A84BA530098FBE8 /* Role.m */; };
+		86868BAA1A8B3DB400A52E92 /* Game.m in Sources */ = {isa = PBXBuildFile; fileRef = 86868BA91A8B3DB400A52E92 /* Game.m */; };
+		86868BB21A8DFEAE00A52E92 /* data.plist in Resources */ = {isa = PBXBuildFile; fileRef = 86868BB11A8DFEAE00A52E92 /* data.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -33,7 +36,6 @@
 		862B0C7B1A81AEA70098FBE8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		862B0C7D1A81AEA70098FBE8 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		862B0C7E1A81AEA70098FBE8 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		862B0C811A81AEA70098FBE8 /* DailyLifeOfHero.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = DailyLifeOfHero.xcdatamodel; sourceTree = "<group>"; };
 		862B0C831A81AEA70098FBE8 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		862B0C841A81AEA70098FBE8 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		862B0C871A81AEA70098FBE8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -42,6 +44,13 @@
 		862B0C921A81AEA70098FBE8 /* DailyLifeOfHeroTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DailyLifeOfHeroTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		862B0C971A81AEA70098FBE8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		862B0C981A81AEA80098FBE8 /* DailyLifeOfHeroTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DailyLifeOfHeroTests.m; sourceTree = "<group>"; };
+		862B0CA21A84B6660098FBE8 /* Task.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Task.h; sourceTree = "<group>"; };
+		862B0CA31A84B6660098FBE8 /* Task.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Task.m; sourceTree = "<group>"; };
+		862B0CA61A84BA530098FBE8 /* Role.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Role.h; sourceTree = "<group>"; };
+		862B0CA71A84BA530098FBE8 /* Role.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Role.m; sourceTree = "<group>"; };
+		86868BA81A8B3DB400A52E92 /* Game.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Game.h; path = ../Game.h; sourceTree = "<group>"; };
+		86868BA91A8B3DB400A52E92 /* Game.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Game.m; path = ../Game.m; sourceTree = "<group>"; };
+		86868BB11A8DFEAE00A52E92 /* data.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = data.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,14 +92,13 @@
 		862B0C781A81AEA70098FBE8 /* DailyLifeOfHero */ = {
 			isa = PBXGroup;
 			children = (
-				862B0C7D1A81AEA70098FBE8 /* AppDelegate.h */,
-				862B0C7E1A81AEA70098FBE8 /* AppDelegate.m */,
+				86868BAE1A8DFB1A00A52E92 /* config */,
 				862B0C831A81AEA70098FBE8 /* ViewController.h */,
 				862B0C841A81AEA70098FBE8 /* ViewController.m */,
 				862B0C861A81AEA70098FBE8 /* Main.storyboard */,
 				862B0C891A81AEA70098FBE8 /* Images.xcassets */,
 				862B0C8B1A81AEA70098FBE8 /* LaunchScreen.xib */,
-				862B0C801A81AEA70098FBE8 /* DailyLifeOfHero.xcdatamodeld */,
+				862B0CA51A84B6760098FBE8 /* model */,
 				862B0C791A81AEA70098FBE8 /* Supporting Files */,
 			);
 			path = DailyLifeOfHero;
@@ -99,6 +107,8 @@
 		862B0C791A81AEA70098FBE8 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				862B0C7D1A81AEA70098FBE8 /* AppDelegate.h */,
+				862B0C7E1A81AEA70098FBE8 /* AppDelegate.m */,
 				862B0C7A1A81AEA70098FBE8 /* Info.plist */,
 				862B0C7B1A81AEA70098FBE8 /* main.m */,
 			);
@@ -120,6 +130,27 @@
 				862B0C971A81AEA70098FBE8 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		862B0CA51A84B6760098FBE8 /* model */ = {
+			isa = PBXGroup;
+			children = (
+				86868BA81A8B3DB400A52E92 /* Game.h */,
+				86868BA91A8B3DB400A52E92 /* Game.m */,
+				862B0CA21A84B6660098FBE8 /* Task.h */,
+				862B0CA31A84B6660098FBE8 /* Task.m */,
+				862B0CA61A84BA530098FBE8 /* Role.h */,
+				862B0CA71A84BA530098FBE8 /* Role.m */,
+			);
+			name = model;
+			sourceTree = "<group>";
+		};
+		86868BAE1A8DFB1A00A52E92 /* config */ = {
+			isa = PBXGroup;
+			children = (
+				86868BB11A8DFEAE00A52E92 /* data.plist */,
+			);
+			name = config;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -204,6 +235,7 @@
 			files = (
 				862B0C881A81AEA70098FBE8 /* Main.storyboard in Resources */,
 				862B0C8D1A81AEA70098FBE8 /* LaunchScreen.xib in Resources */,
+				86868BB21A8DFEAE00A52E92 /* data.plist in Resources */,
 				862B0C8A1A81AEA70098FBE8 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -222,10 +254,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				862B0CA41A84B6660098FBE8 /* Task.m in Sources */,
 				862B0C7F1A81AEA70098FBE8 /* AppDelegate.m in Sources */,
 				862B0C7C1A81AEA70098FBE8 /* main.m in Sources */,
+				86868BAA1A8B3DB400A52E92 /* Game.m in Sources */,
 				862B0C851A81AEA70098FBE8 /* ViewController.m in Sources */,
-				862B0C821A81AEA70098FBE8 /* DailyLifeOfHero.xcdatamodeld in Sources */,
+				862B0CA81A84BA530098FBE8 /* Role.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -418,6 +452,7 @@
 				862B0C9E1A81AEA80098FBE8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		862B0C9F1A81AEA80098FBE8 /* Build configuration list for PBXNativeTarget "DailyLifeOfHeroTests" */ = {
 			isa = XCConfigurationList;
@@ -426,21 +461,9 @@
 				862B0CA11A81AEA80098FBE8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
-
-/* Begin XCVersionGroup section */
-		862B0C801A81AEA70098FBE8 /* DailyLifeOfHero.xcdatamodeld */ = {
-			isa = XCVersionGroup;
-			children = (
-				862B0C811A81AEA70098FBE8 /* DailyLifeOfHero.xcdatamodel */,
-			);
-			currentVersion = 862B0C811A81AEA70098FBE8 /* DailyLifeOfHero.xcdatamodel */;
-			path = DailyLifeOfHero.xcdatamodeld;
-			sourceTree = "<group>";
-			versionGroupType = wrapper.xcdatamodel;
-		};
-/* End XCVersionGroup section */
 	};
 	rootObject = 862B0C6E1A81AEA70098FBE8 /* Project object */;
 }

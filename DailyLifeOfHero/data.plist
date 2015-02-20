@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Task</key>
+	<dict>
+		<key>1</key>
+		<dict>
+			<key>name</key>
+			<string>跑步</string>
+			<key>desc</key>
+			<string>跑个百八十米，直上云霄</string>
+		</dict>
+		<key>2</key>
+		<dict>
+			<key>name</key>
+			<string>俯卧撑</string>
+			<key>desc</key>
+			<string>不，一点都不累</string>
+		</dict>
+		<key>3</key>
+		<dict>
+			<key>name</key>
+			<string>仰卧起坐</string>
+			<key>desc</key>
+			<string>腹肌们都准备好出来看太阳了呢</string>
+		</dict>
+		<key>4</key>
+		<dict>
+			<key>name</key>
+			<string>冥想</string>
+			<key>desc</key>
+			<string>一点点看穿这个世界</string>
+		</dict>
+	</dict>
+</dict>
+</plist>
